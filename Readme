@@ -1,0 +1,67 @@
+BookStoreApp
+
+Um aplicativo Android para gerenciar livros e usuários, construído com Kotlin, Fragments, Navigation Component e ViewBinding.
+
+Funcionalidades
+
+Listar usuários e produtos (livros) em telas separadas.
+
+Navegação entre telas usando Navigation Component.
+
+Layouts responsivos e modernos com Material Design.
+
+Estrutura pronta para persistência de dados futura (Room, Firebase, etc.).
+
+Tecnologias
+
+Kotlin
+
+Android SDK 36
+
+Navigation Component 2.7.7
+
+ViewBinding
+
+Material Components 1.13.0
+
+Estrutura do Projeto
+BookStoreApp/
+│
+├─ app/
+│  ├─ src/main/
+│  │  ├─ java/com/example/bookstoreapp/   # Pacotes do código Kotlin
+│  │  ├─ res/                            # Recursos (layouts, drawable, etc.)
+│  │  └─ AndroidManifest.xml
+│  └─ build.gradle
+└─ build.gradle
+
+Como Rodar
+
+Clone o repositório:
+
+git clone <URL_DO_REPOSITORIO>
+
+
+Abra no Android Studio.
+
+Certifique-se de que o SDK esteja configurado (mínimo API 21).
+
+Build e Run o projeto em um emulador ou dispositivo físico.
+
+Configurações Importantes
+
+No app/build.gradle:
+
+namespace = "com.example.bookstoreapp"
+applicationId = "com.example.bookstoreapp"
+
+
+Certifique-se de ter refatorado o pacote para corresponder ao namespace.
+
+Contribuição
+
+Pull requests são bem-vindos. Para mudanças maiores, abra uma issue primeiro.
+
+Licença
+
+MIT License © 2025
